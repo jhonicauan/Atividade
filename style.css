@@ -73,16 +73,44 @@ a:hover{
     justify-content: center;
 }
 
-.MessageContent{
+.MessageI{
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
 }
 
+.MessageI h3{
+    align-self: flex-start;
+}
 
-.MessageContent{
+
+
+.MessageContentI{
     padding: 1%;
     background-color: white;
+    align-self: flex-start;
+    height: auto;
+    max-width: 80%;
+    border: solid;
+    border-radius: 5px;
+}
+
+.MessageY{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.MessageY h3{
+    align-self: flex-end;
+}
+
+
+
+.MessageContentY{
+    padding: 1%;
+    background-color: white;
+    align-self: flex-end;
     height: auto;
     max-width: 80%;
     border: solid;
